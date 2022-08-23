@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  font-family: "Poppins", "cursive";
+}
+
+nav {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.logo {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.logo1 {
+  width: 100px;
+}
+
+.active-item{
+  color: #ff5f1f
+}
+
+.nav-items {
+  display: flex;
+  padding-left: 350px;
+  padding-top: 20px;
+}
+
+.nav-item {
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.actions {
+  padding-left: 300px;
+  padding-top: 9px;
+}
+
+.nav-menu-icon{
+  display: none;
+}
+
+.left-section {
+  padding-top: 50px;
+  position: absolute;
+  margin-left: 30px;
+}
+
+
+h3 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.circles {
+  width: 45px;
+}
+
+.wireless {
+  padding-left: 20px;
+  font-size: 70px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.sub-headlines {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.sub-headline {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.plus {
+  background-color: #ff5f1f;
+  border-radius: 15px;
+  width: 25px;
+}
+
+.discount {
+  position: absolute;
+  margin-left: 1070px;
+  padding-top: 350px;
+  width: 150px;
+}
+
+.discount-content {
+  position: absolute;
+  margin-left: 1100px;
+  padding-top: 380px;
+  color: white;
+}
+
+h4 {
+  position: absolute;
+  padding-left: 13px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.fifty {
+  font-size: 40px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.headphone {
+  position: absolute;
+  margin-left: 1100px;
+  padding-top: 30px;
+  width: 550px;
+  z-index: -1;
+}
+
+p {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 700px;
+  font-size: 13px;
+  color: grey;
+}
+
+.action-btns {
+  margin-left: 50px;
+  margin-top: 110px;
+  padding-bottom: 30px;
+}
+
+.action-btn {
+  padding: 13px 30px 13px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: #ff5f1f;
+  border: none;
+  margin-left: 30px;
+}
+
+.cart {
+  margin-top: 20px;
+  margin-left: 1250px;
+}
+
+.dots{
+  display: flex;
+  margin-left: 1260px;
+  padding-top: 580px;
+}
+
+.dot{
+  padding-left: 30px;
+}
+
+
+@media screen and (max-width:1230px) {
+
+  
+  nav {
+    display: flex;
+    overflow-x: hidden;
+    width: 1230px;
+  }
+  
+  .logo {
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  
+  .logo1 {
+    width: 100px;
+  }
+  
+  .active-item{
+    color: #ff5f1f
+  }
+  
+  .nav-items {
+    display: none;
+   
+  }
+  
+  .actions {
+      display: none;
+  }
+  
+  .nav-menu-icon{
+    display: block;
+    margin-left: 750px;
+    margin-top: 10px;
+  }
+
+  .nav-menu-icon i{
+    font-size: 40px;
+    color: black;
+  }
+  
+  .text{
+    font-size: 30px;
+    width: 900px;
+  }
+
+  .intro-section{
+    margin-top: 40px;
+  }
+
+  .action-btn {
+    padding: 20px 50px 20px 50px;
+    font-size: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: #ff5f1f;
+    border: none;
+    margin-left: 30px;
+  }
+
+  .headphone {
+    position: absolute;
+    margin-left: 200px;
+    padding-top: 1000px;
+    width: 550px;
+    z-index: -1;
+  }
+
+  .discount {
+    position: absolute;
+    margin-left: 170px;
+    padding-top: 1320px;
+    width: 150px;
+  }
+  
+  .discount-content {
+    position: absolute;
+    margin-left: 205px;
+    padding-top: 1360px;
+    color: black;
+  }
+
+  .cart {
+    margin-top: 30px;
+    margin-left: 260px;
+    width: 400px;
+  }
+  
+  .dots{
+    display: flex;
+    margin-left: 350px;
+    padding-top: 1580px;
+  }
+  
+  .dot{
+    padding-left: 30px;
+  }
+  
+
+}
