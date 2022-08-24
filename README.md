@@ -14,7 +14,7 @@
 
 
 # Live Link
-[Click me](https://app.netlify.com/sites/producthomepagedesign7/overview) to view the project.
+[Click me](https://producthomepagedesign7.netlify.app/) to view the project.
 
 Used in project
 
